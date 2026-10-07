@@ -32,7 +32,7 @@ const LANGUAGES = [
 
 // Proficiency levels, best first. Weight is used by the matching engine.
 const LEVELS = [
-  { code: 'native', label: 'Native speaker', weight: 1.0, rank: 4 },
+  { code: 'native', label: 'Native', weight: 1.0, rank: 4 },
   { code: 'C2', label: 'C2 – Proficient', weight: 0.9, rank: 3 },
   { code: 'C1', label: 'C1 – Advanced', weight: 0.8, rank: 2 },
   { code: 'B2', label: 'B2 – Upper-intermediate', weight: 0.6, rank: 1 },
